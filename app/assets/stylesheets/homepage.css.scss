@@ -1,0 +1,141 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+h1.statement1 {
+	color: #8B8686;
+	font-family: Avenir Next Condensed;
+	font-size: 2.5em;
+	font-weight: 250; 
+}
+
+h2.statement2 {
+	color: #8B8686;
+	font-family: Avenir Next Condensed;
+	font-size: 1.5em;
+	font-weight: 250; 
+
+}
+
+
+.container{ 
+	text-align: center; 
+
+	.statement2
+	{
+		margin-top: 100px
+	}
+}
+
+.containerform{
+    text-align: center; 
+    margin-top: 40px
+}
+
+// form.form-line{
+// 	padding: 20px 10px;
+// }
+
+
+
+body {
+	background: url("../assets/Chocolate-cake.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+.image-responsive { 
+	margin-top: 6em;
+    height: 100%;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+      position: relative;
+
+}
+
+
+// Input Form
+
+
+.form-group {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.form-group > .form-control {
+  position: relative;
+  flex: 1 1 auto;
+  width: 10%;
+  margin-bottom: 0;
+  height: 40px
+}
+
+.form-group > .btn {
+  height: 40px;
+  position: relative;
+} 
+
+
+#email1{
+  width: 230px
+}
+
+.btn1, .btn1:hover{
+  background: #42D155;
+  font-family: Avenir Next Condensed;
+  text-decoration: none;
+  color: white;
+      // border-radius: 105px;
+}
+
+// .btn:hover{
+//   background: white;
+//   text-decoration: none;
+//   font-family: Avenir Next Condensed;
+//       // border-radius: 105px;
+// }
+
+i.far {
+    background-color: rgb(63, 164, 300);
+  border-radius: 30px;
+  color: white;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  margin: auto 3px;
+  width: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+
+i.fab {
+  background-color: rgb(63, 164, 300);
+  border-radius: 30px;
+  color: white;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  margin: auto 3px;
+  width: 50px;
+  font-size: 20px;
+  text-align: center;
+    margin-top: 40px;
+
+
+}
+
+i.fab:hover {
+  background-color: rgb(63, 164, 300);
+  text-decoration: none;
+}
+// 
